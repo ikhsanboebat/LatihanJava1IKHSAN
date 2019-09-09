@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/satu"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round1"
+            android:text="SATU"
+            android:layout_marginLeft="50dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="satu"/>
+
+        <Button
+            android:id="@+id/dua"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round1"
+            android:text="DUA"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="dua"
+            />
+
+        <Button
+            android:id="@+id/tiga"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round1"
+            android:text="TIGA"
+            android:layout_marginLeft="50dp"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="tiga"/>
+
+        <Button
+            android:id="@+id/empat"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/round1"
+            android:text="EMPAT"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="empat"/>
+    </GridLayout>
+
+</LinearLayout>
